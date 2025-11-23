@@ -1,12 +1,28 @@
 {
   "name": "browser-editor",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A browser-based text editor that visualizes data structures for learning purposes.",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --runInBand",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "dev": "live-server public"
   },
-  "keywords": [],
+  "keywords": ["editor", "data-structures", "learning", "javascript"],
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "live-server": "^1.2.2"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "roots": ["<rootDir>/tests"],
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/**/*.test.js"
+    ]
+  }
 }
