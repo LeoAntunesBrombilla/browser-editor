@@ -27,6 +27,10 @@ class TextBuffer  {
     getLineCount() {
         return this.lines.length
     }
+
+    replaceAll(lines) {
+        this.lines = [...lines];
+    }
 }
 
 export default TextBuffer;
