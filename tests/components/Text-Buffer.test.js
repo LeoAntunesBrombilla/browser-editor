@@ -1,5 +1,5 @@
-const assert = require('assert');
-const { TextBuffer } = require('../../src/components/Text-Buffer');
+import assert from 'assert';
+import TextBuffer from '../../src/components/Text-Buffer.js';
 
 describe('TextBuffer', () => {
     it('should initialize with zero lines', () => {

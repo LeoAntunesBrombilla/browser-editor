@@ -26,7 +26,7 @@ A browser-based text editor focused on implementing and visualizing fundamental 
 
 #### Task 1.1: Initialize Project
 
-- [ ] Create project structure
+- [x] Create project structure
   ```
   /src
     /data-structures
@@ -38,15 +38,15 @@ A browser-based text editor focused on implementing and visualizing fundamental 
   package.json
   README.md
   ```
-- [ ] Setup package.json with test scripts
-- [ ] Configure testing framework (Jest)
-- [ ] Create basic HTML structure
-- [ ] Setup CSS baseline
+- [x] Setup package.json with test scripts
+- [x] Configure testing framework (Jest)
+- [x] Create basic HTML structure
+- [x] Setup CSS baseline
 - **Tests:** N/A (setup only)
 
 #### Task 1.2: Implement Array-Based Text Buffer
 
-- [ ] Create `TextBuffer` class
+- [x] Create `TextBuffer` class
   - `getLine(index)` - retrieve line at index
   - `insertLine(index, text)` - insert new line
   - `deleteLine(index)` - remove line
@@ -65,7 +65,7 @@ A browser-based text editor focused on implementing and visualizing fundamental 
 
 #### Task 1.3: Basic Editor UI
 
-- [ ] Create editor container with textarea/contenteditable
+- [ ] Create editor container with textarea/content editable
 - [ ] Create visual display for array structure
 - [ ] Render text from buffer to display
 - [ ] Add manual test buttons (insert, delete, modify)

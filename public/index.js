@@ -1,3 +1,5 @@
+import TextBuffer from '../src/components/Text-Buffer.js';
+
 console.log("Editor initialized");
 
 // Temporary placeholder logic — will be replaced by TextBuffer soon

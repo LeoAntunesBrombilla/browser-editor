@@ -89,11 +89,22 @@
             <div class="editor-content">
                 <textarea id="editor" spellcheck="false"></textarea>
             </div>
+            <div class="controls" style="padding: 10px; border-top: 1px solid #3e3e42;">
+                <button id="btn-insert">Insert Line</button>
+                <button id="btn-delete">Delete Line</button>
+                <button id="btn-modify">Modify Line</button>
+            </div>
             <div class="status-bar">
                 <span class="mode-indicator">-- INSERT --</span>
                 <span class="cursor-position">Line 1, Col 1</span>
             </div>
         </div>
+        <div class="visualization-section">
+            <div class="editor-header">Array Structure</div>
+            <div id="array-visual" class="editor-content">
+        </div>
     </div>
+    </div>
+    <script type="module" src="index.js"></script>
 </body>
 </html>
