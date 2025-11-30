@@ -29,4 +29,5 @@ class TextBuffer  {
     }
 }
 
-export default TextBuffer;
+module.exports = { TextBuffer };
+
